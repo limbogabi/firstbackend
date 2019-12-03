@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "autoadmin",
+    "password": "!auto123",
+    "database": "TEST_PVT_db",
+    "host": "192.168.102.36",
+    "dialect": "mssql",
+    "operatorsAliases": false,
+    "define": {"freezeTableName": true}
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mssql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mssql",
+    "operatorsAliases": false
+  }
+}
